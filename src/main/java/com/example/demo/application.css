@@ -1,0 +1,7 @@
+.title-label {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: #33; /* Adjust color as needed */
+    -fx-padding: 0 0 10 0; /* Add bottom padding for spacing */
+
+}

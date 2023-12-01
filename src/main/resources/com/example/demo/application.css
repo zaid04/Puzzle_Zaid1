@@ -1,0 +1,79 @@
+.title-label {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: #33; /* Adjust color as needed */
+    -fx-padding: 0 0 10 0; /* Add bottom padding for spacing */
+
+}
+.title-pane {
+    -fx-alignment: center;
+}
+/* Add your CSS styling for PuzzleApp here */
+.root {
+    -fx-background-color: #cfecae; /* Change this to your desired color */
+}
+/* VBox styling */
+.vbox {
+
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+/* Button styling */
+.button {
+    -fx-font-size: 14;
+    -fx-padding: 10 15;
+    -fx-background-color: #9dbf76;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+/* GridPane styling */
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+/* ImageView styling */
+.image-view {
+    -fx-fit-width: 100;
+    -fx-fit-height: 100;
+}
+
+/* StackPane styling */
+.stack-pane {
+    -fx-margin: 5;
+}
+
+/* Add more styling as needed */
+
+/* Example: Styling for Start Game Button */
+#startGameButton {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text color */
+}
+
+/* Example: Styling for Pause Button */
+#pauseButton {
+    -fx-background-color: #2196F3; /* Blue background */
+    -fx-text-fill: white; /* White text color */
+}
+
+/* Example: Styling for Quit Button */
+#quitButton {
+    -fx-background-color: #f44336; /* Red background */
+    -fx-text-fill: white; /* White text color */
+}
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green background on hover */
+}
+.win-dialog {
+    -fx-background-color: #cfeca; /* Set your desired background color */
+    -fx-border-color: #4682B4; /* Set your desired border color */
+    -fx-border-width: 2;
+    -fx-padding: 10;
+}
